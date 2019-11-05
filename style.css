@@ -66,6 +66,20 @@ text-align: center;
     font-family: oswald, sans-serif;
 }
 @media (max-width: 750px) and (min-width: 500px){
+    .gallery-item, body{
+        max-width: 30%;
+        grid-column: 1;
+        font-family: oswald, sans-serif;
+        text-align: left;
+    }
+    div.container, h1{
+        text-align: left;
+        margin-left:2em;
+    }
+    div.text{
+        font-size: 2.5em;
+    }
+@media (max-width: 500x){
 .gallery-item, body{
     max-width: 30%;
     grid-column: 1;
